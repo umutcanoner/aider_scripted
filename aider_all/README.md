@@ -129,6 +129,25 @@ The script logs its actions based on the `DEBUG` and `DRY_RUN` settings:
 - **Debug Logs**: Enable detailed logging by setting `DEBUG = True`. Logs will include detailed information about file processing steps.
 - **Dry Run Logs**: If `DRY_RUN` is enabled, the script will write a detailed log of what would have been processed to `aider_all_dry_run.log`.
 
+## Example Mesages
+
+### Generate & Enrich API Documentation
+
+```python
+MESSAGES = [
+    "Update API_DOCUMENTATION.md using the supplied files without being repetitive. Embrace the Kaizen approach, making small but important changes incrementally.",
+    "Enrich API_DOCUMENTATION.md using the supplied files without being repetitive. Embrace the Kaizen approach, making small but important changes incrementally.",
+]
+```
+
+### Refactor Codebase
+
+```python
+MESSAGES = [
+    "Refactor {file_list} by making it much more DRY, minimizing code duplication as much as possible without changing its behavior. Keep it backwards compatible and well-documented.",
+]
+```
+
 ## Miscellaneous
 
 - Function comments and docstrings are for your reference. They might impair your experience, I suggest you remove them after you understand the script.

@@ -132,3 +132,4 @@ The script logs its actions based on the `DEBUG` and `DRY_RUN` settings:
 ## Miscellaneous
 
 - Function comments and docstrings are for your reference. They might impair your experience, I suggest you remove them after you understand the script.
+- Use the suggested .aider.conf.yml configuration for the best experience.
